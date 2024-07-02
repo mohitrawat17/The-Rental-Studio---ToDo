@@ -32,7 +32,7 @@ const Body = () => {
     })
 
 
-  }, [allTasks])
+  }, [])
 
   const handleAdd=()=>{
     if (newTitle && newTask) {
